@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pacific Trails Resort</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #3cb371;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+    h2 {
+      color: #2e8b57;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #2e8b57;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pacific Trails Resort</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="yurts.html">Yurts</a>
+    <a href="activities.html">Activities</a>
+    <a href="reservations.html">Reservations</a>
+  </nav>
+
+  <main>
+    <h2>Enjoy Nature in Luxury</h2>
+    <p>Located on the California North Coast, Pacific Trails Resort offers panoramic views of the Pacific Ocean. Stay in private yurts featuring:</p>
+    <ul>
+      <li>Gas fireplace</li>
+      <li>King-size bed</li>
+      <li>Private deck</li>
+    </ul>
+    <p>Resort amenities include:</p>
+    <ul>
+      <li>Unwind in the heated outdoor pool and whirlpool</li>
+      <li>Explore the coast on your own or join guided tours</li>
+      <li>Start the day with a complimentary cooked-to-order breakfast</li>
+      <li>Relax in the lodge with complimentary appetizers and beverages</li>
+      <li>Savor nightly fine dining with an ocean view</li>
+    </ul>
+    <p><strong>Contact Us:</strong><br>
+      Pacific Trails Resort<br>
+      12456 Pacific Trails Road<br>
+      Zephyr, CA 95555<br>
+      888-555-5555
+    </p>
+  </main>
+
+  <footer>
+    <p>Copyright © 2020 Pacific Trails Resort</p>
+    <p>yourfirstname@yourlastname.com</p>
+  </footer>
+
+</body>
+</html>
