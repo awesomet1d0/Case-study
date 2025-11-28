@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JavaJam Coffee House</title>
+  <title>JavaJam Coffee Bar</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #fff8f0;
     }
     header, nav, main, footer {
       padding: 20px;
-      border: 1px solid #ccc;
       margin: 10px;
+      border: 1px solid #ccc;
     }
     header {
       background-color: #f4e1d2;
@@ -25,30 +26,38 @@
       list-style-type: none;
       padding: 0;
       display: flex;
-      gap: 15px;
+      gap: 20px;
     }
     nav a {
       text-decoration: none;
       color: #333;
+      font-weight: bold;
     }
     main {
       background-color: #fff;
     }
-    .content-div {
-      border: 1px dashed #999;
-      padding: 15px;
-      margin-top: 10px;
+    main h2 {
+      margin-top: 0;
+    }
+    ul.offerings {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    address {
+      font-style: normal;
+      margin-top: 20px;
     }
     footer {
       background-color: #f4e1d2;
       text-align: center;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>JavaJam Coffee House</h1>
+    <h1>JavaJam Coffee Bar</h1>
   </header>
 
   <nav>
@@ -57,20 +66,30 @@
       <li><a href="menu.html">Menu</a></li>
       <li><a href="music.html">Music</a></li>
       <li><a href="jobs.html">Jobs</a></li>
-      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <main>
-    <h2>Welcome to JavaJam!</h2>
-    <p>Relax, enjoy a cup of coffee, and listen to some great music.</p>
-    <div class="content-div">
-      <p>This is a special content area inside the main section. You can use it for promotions, featured events, or anything else.</p>
-    </div>
+    <h2>Relax at JavaJam</h2>
+    <p>JavaJam Coffee Bar provides a welcoming atmosphere where you can enjoy:</p>
+    <ul class="offerings">
+      <li>Specialty Coffee and Organic Tea</li>
+      <li>Bagels, Muffins, and Gluten-free Pastries</li>
+      <li>Organic Salads</li>
+      <li>Music and Poetry Readings</li>
+      <li>Open Mic Night</li>
+    </ul>
+
+    <address>
+      12010 Garrett Bay Road<br />
+      Ellison Bay, WI 54210<br />
+      888-555-5555
+    </address>
   </main>
 
   <footer>
-    <p>&copy; 2025 JavaJam Coffee House</p>
+    <p>Copyright &copy; 2020 JavaJam Coffee Bar<br />
+    <a href="mailto:javajam@javajam.com">javajam@javajam.com</a></p>
   </footer>
 
 </body>
